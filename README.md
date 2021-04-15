@@ -5,9 +5,6 @@ Get started with NodeJS
 <li>NodeJS</li>
 <li>MongoDB</li>
 <li>VSCode(or any other text editor)</li>
-NodeJS
-MongoDB
-VSCode(or any other text editor)
 
 # How to start server on your local machine
  //Go to the project terminal and type the following commands
