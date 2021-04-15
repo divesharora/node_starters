@@ -2,6 +2,9 @@
 Get started with NodeJS
 
 # prerequisites
+<li>NodeJS</li>
+<li>MongoDB</li>
+<li>VSCode(or any other text editor)</li>
 NodeJS
 MongoDB
 VSCode(or any other text editor)
