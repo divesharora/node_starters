@@ -2,7 +2,6 @@ const mongoose = require("mongoose");
 const app = require("./api/app");
 require("dotenv").config();
 const uri = process.env.MONGODB_URI;
-const cron = require("node-cron");
 
 mongoose
   .connect(uri, {

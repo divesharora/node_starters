@@ -10,7 +10,7 @@ const appRoutes = require("./routes/appRoutes");
 app.use(cors());
 app.use(express.json({ limit: "1mb" }));
 app.use(bodyParser.json());
-app.use(bodyParser.urlencoded({ extended: false, limit: "50mb" }));
+app.use(bodyParser.urlencoded({ extended: false, limit: "1mb" }));
 
 //User Routes
 app.use("/", appRoutes);
