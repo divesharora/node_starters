@@ -23,6 +23,9 @@ const userSchema = mongoose.Schema({
       "Please enter a valid Email ID",
     ],
   },
+  role: {type: String, required: true,enum:['admin','student','faculty']},
+  classes:[{type: mongoose.Schema.Types.ObjectId, ref: 'Class'}],
+  marks:[{type: mongoose.Schema.Types.ObjectId, ref: 'Mark'}],
 });
 
 module.exports = mongoose.model("User", userSchema);
